@@ -1,0 +1,27 @@
+{
+  "name": "thinknodemysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "thinknodemysql.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "thinknodemysql"
+  ],
+  "author": "como",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^1.5.3",
+    "usetools": "^1.0.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  }
+}
