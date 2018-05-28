@@ -3,6 +3,7 @@
 
 ### installtion
 	npm install --save thinknodemysql
+	npm install --save babel-runtime
 
 ### 使用示例
 
