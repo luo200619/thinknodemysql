@@ -1,0 +1,37 @@
+{
+  "name": "thinknodemysql",
+  "version": "1.0.5",
+  "description": "this is mysql action package",
+  "main": "thinknodemysql.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luo200619/thinknodemysql.git"
+  },
+  "keywords": [
+    "thinknodemysql"
+  ],
+  "author": "como",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luo200619/thinknodemysql/issues"
+  },
+  "homepage": "https://github.com/luo200619/thinknodemysql#readme",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "mysql2": "^1.5.3",
+    "usetools": "^1.0.6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-runtime": "^6.26.0"
+  }
+}
