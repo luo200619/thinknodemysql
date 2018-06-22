@@ -3,8 +3,6 @@
 
 ### installtion
 	npm install --save thinknodemysql
-	npm install --save babel-runtime
-
 ### 使用示例
 
     const mysql = require('thinknodemysql');
@@ -13,7 +11,7 @@
         user:'您的用户名',
         password:'您的密码',
         database:'数据库名称',
-        DB_PREFIX:'数据库前缀',
+        prefix:'数据库前缀',
     };
     const model = new mysql(config);
 	### 查询数据示例 es7用法
@@ -160,6 +158,9 @@
     .getLastSql()
 > 获最后一条查询的语句
 
+    .close()
+> 关闭数据库链接
 ### 更新日志
-2018-05-28  como 首次完成( 如发现问题,请发送邮件814655481@qq.com )
+2018-05-28  como 首次完成
+2018-06-22  como 修复事件超出10次警告的信息,增加close关闭数据库链接
 使用bable编译过,应该可以支持低版本的nodejs [模块编写环境:nodejs 8.1]
