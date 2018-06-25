@@ -1349,7 +1349,6 @@ var MysqlDriver = function (_Driver) {
 			var that = this;
 			var expression = ['table', 'data', 'where'];
 			var result = ['UPDATE'];
-			console.log(options);
 			expression.forEach(function (item) {
 				if (options[item]) {
 					switch (item) {
